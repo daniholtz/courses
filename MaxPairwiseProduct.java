@@ -3,7 +3,7 @@ import java.io.*;
 
 public class MaxPairwiseProduct {
 
-    // slower method
+    // slower method - método lento
 	
     static long getMaxPairwiseProduct(int[] numbers) {
         long result = 0;
@@ -18,7 +18,7 @@ public class MaxPairwiseProduct {
         return result;
     }
 
-    // faster method
+    // faster method - método mais rápido
     
     static long getMaxPairwiseProductFast(int[] numbers) {
         int nSize = numbers.length;
@@ -53,7 +53,7 @@ public class MaxPairwiseProduct {
         
 
     /*
-    // stress test
+    // stress test - teste de stress
     while (true) {
         Random ran = new Random();
         int max = 5;
@@ -78,7 +78,7 @@ public class MaxPairwiseProduct {
     }
      */
 }
-    // scanner code
+    // scanner code 
     
     static class FastScanner {
         BufferedReader br;
